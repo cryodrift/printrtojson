@@ -1,0 +1,21 @@
+{
+    "name": "cryodrift/printrtojson",
+    "description": "Convert print_r output to JSON for debugging.",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1.1",
+    "require": {
+        "php": ">=8.4",
+        "cryodrift/fw": "^0.1.0"
+    },
+    "authors": [
+        {
+            "name": "chrisg"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "cryodrift\\printrtojson\\": ""
+        }
+    }
+}
